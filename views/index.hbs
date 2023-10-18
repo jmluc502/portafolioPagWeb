@@ -11,18 +11,8 @@
     <link rel="stylesheet" href="/VERSION2/public/CSS/styles.css"">
 </head>
 <body>
-    <header>
-        <h1 class="titulo"><img src="/VERSION2/public/IMG/Logo.png" alt=""></h1>
-    </header>
-
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">Inicio</a>
-            <a href="sobre mi.html">Sobre Mi</a>
-            <a href="Portafolio.html">Portafolio</a>
-            <a href="Servicios.html">Servicios</a>
-            <a href="Contacto.html">Contácto</a>
-        </nav>
+    {{>header}}
+    {{>navbar}}
     </div>
     
     <section class="hero">
@@ -82,18 +72,7 @@
     </main>
     <br>
     
-    <footer class="footer">
-
-        <div class="enlaces">
-            <a href="josemariolucascontreras.html">Inicio</a>
-            <a href="sobre mi.html">Sobre mi</a>
-            <a href="Portafolio.html">Portafolio</a>
-            <a href="Servicios.html">Servicios</a>
-            <a href="Contacto.html">Contacto</a>
-        </div>
-
-        <p>Todos los derechos reservados. José Mario Lucas Contreras 2023</p>
-    </footer>
+   {{>footer}}
 
 
 
