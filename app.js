@@ -27,11 +27,8 @@ app.get('/contacto',(req, res)=>{
     res.render('contacto')
 })
 
-
-
-
 app.get('*',(req,res)=>{
-    res.sendFile(__dirname + '/public/404.html')
+    res.render('404')
 })
 
 app.listen(port, ()=>{
